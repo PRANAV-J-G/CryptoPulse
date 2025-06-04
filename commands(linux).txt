@@ -12,3 +12,5 @@ kafka-topics.sh --create --topic crypto_sentiment --bootstrap-server localhost:9
 
 
 changes made
+
+# final changes
