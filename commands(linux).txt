@@ -11,3 +11,4 @@ kafka-server-start.sh config/server.properties
 kafka-topics.sh --create --topic crypto_sentiment --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 
 
+changes made
