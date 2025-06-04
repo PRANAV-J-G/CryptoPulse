@@ -1,0 +1,13 @@
+# Starting a kafka server
+
+# In terminal 1
+zookeeper-server-start.sh config/zookeeper.properties
+
+# In terminal 2
+kafka-server-start.sh config/server.properties
+
+
+## Create kafka topic 
+kafka-topics.sh --create --topic crypto_sentiment --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+
+
